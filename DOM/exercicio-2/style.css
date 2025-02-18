@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  #task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .task {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+  }
+  .task button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .task button:hover {
+    background-color: darkred;
+  }

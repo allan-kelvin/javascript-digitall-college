@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('https://wallpapers.com/images/featured/fundo-de-coracao-rosa-5jv4ejt1adew360j.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+button{
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: #d13024;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #6b1506;
+}
+.nao{
+    transform: translateX(300px);
+}
+
+.naoNew{
+    transform: translateY(300px);
+}
